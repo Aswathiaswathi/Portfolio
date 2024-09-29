@@ -1,0 +1,103 @@
+@import '../../vars.css';
+.sectionP1{
+    padding: 40px 80px;
+}
+.contact{
+    background-image: var(--background-image);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.contact h1{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px;
+}
+.contactDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: 50%;
+
+}
+ .details{
+    width: 50%;
+}
+.details *{
+    color: #fff;
+}
+.details h2{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.details ul{
+    list-style: none;
+    margin: 40px 0;
+}
+.details ul li{
+    margin: 15px 0;
+}
+.details .icons i{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.contactDetails .form input,.contactDetails .form textarea{
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    background: transparent;
+    border: 2px solid #a1a1a1;
+}
+.form .sendBtn{
+    background: var(--color-bg);
+    color: #fff;
+}
+@media screen and (max-width:830px){
+    .contact{
+        height: 45vh;
+    }
+    .contactDetails{
+        padding: 30px 40px;
+    }
+}
+@media screen and (max-width:477px){
+    .sectionP1{
+        padding: 20px;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .contact h1{
+        font-size: 25px;
+    }
+    .contactDetails{
+        flex-direction: column;
+    }
+    .details{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .details h2{
+        font-size: 23px;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px) {
+    .contact{
+        height: 115vh;
+    }
+    
+}

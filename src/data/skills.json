@@ -1,0 +1,26 @@
+[
+    {
+        "title":"HTML",
+        "imageSrc":"skills/html.jfif"
+    },
+    {
+        "title":"CSS",
+        "imageSrc":"skills/css.jfif"
+    },
+    {
+        "title":"React",
+        "imageSrc":"skills/react.jfif"
+    },
+    {
+        "title":"Python",
+        "imageSrc":"skills/python.jfif"
+    },
+    {
+        "title":"Django",
+        "imageSrc":"skills/django.jfif"
+    },
+    {
+        "title":"MySql",
+        "imageSrc":"skills/mysql.jfif"
+    }
+]

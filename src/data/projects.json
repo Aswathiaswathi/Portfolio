@@ -1,0 +1,27 @@
+[
+    {
+        "imageSrc":"projects/pro1.png",
+        "title":"justCraftin",
+        "subTitle":"E-commerce Application",
+        "description":"Discover unique, handcrafted items on our eCommerce platform, where creativity meets craftsmanship",
+        "skills":["Python","Django","HTML","CSS","JS"],
+        "preview":"https://www.example.com",
+        "source":"https://github.com/Aswathiaswathi/justCraftin"
+},{
+    "imageSrc":"projects/pro2.png",
+    "title":"Portfolio",
+    "subTitle":"My Portfolio",
+    "description":"Designed and developed a personal portfolio website to showcase my projects and technical expertise.",
+    "skills":["HTML","CSS","React"],
+    "preview":"https://www.example.com",
+    "source":"https://github.com/Aswathiaswathi"
+},{
+    "imageSrc":"projects/pro3.png",
+    "title":"COC",
+    "subTitle":"Clash Of Clans",
+    "description":"Developed an interactive gaming website featuring a collection of online games with engaging visuals and smooth gameplay",
+    "skills":["Python","Django","HTML","CSS","JS"],
+    "preview":"https://www.example.com",
+    "source":"https://github.com/Aswathiaswathi"
+}
+]

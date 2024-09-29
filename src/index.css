@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit",Arial, Helvetica, sans-serif;
+  color: #000;
+
+}
+/* .sectionP1{
+  padding: 40px 80px;
+  border: 5px solid black;
+} */
+/* .sectionM1{
+  padding: 40px 0;
+} */
+
+
+.sectionP1{
+    padding: 40px 80px;
+  }
+
+button{
+  font-size: 14px;
+	font-weight: 600;
+	padding: 15px 30px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+
+}
+p{
+  text-align: justify;
+  letter-spacing: 1px;
+    line-height: 25px;
+}
